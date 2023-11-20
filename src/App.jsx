@@ -1,35 +1,51 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
 function App() {
-  const [count, setCount] = useState(0)
+  
+    return (
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+        <main className="main">
+            <div className="container__grid">
+                
+                <div className="grid__column">
+                    <div className="card">
+                        <h3 className="card__title">Supervisor</h3>
+                        <p className="card__description">Monitors activity to identify project roadblocks</p>
+                        <div className="card__container-icon">
+                            <img src="./src/assets/images/icon-supervisor.svg" alt="Supervisor" className="card__icon" />
+                        </div>
+                    </div>
+                </div>
+
+                <div className="grid__column">
+                    <div className="card">
+                        <h3 className="card__title">Team Builder</h3>
+                        <p className="card__description">Scans our talent network to create the optimal team for your project</p>
+                        <div className="card__container-icon">
+                            <img src="./src/assets/images/icon-team-builder.svg" alt="Team Builder" className="card__icon" />
+                        </div>
+                    </div>
+
+                    <div className="card">
+                        <h3 className="card__title">Karma</h3>
+                        <p className="card__description">Regularly evaluates our talent to ensure quality</p>
+                        <div className="card__container-icon">
+                            <img src="./src/assets/images/icon-karma.svg" alt="Karma" className="card__icon" />
+                        </div>
+                    </div>
+                </div>
+
+                <div className="grid__column">
+                    <div className="card">
+                        <h3 className="card__title">Calculator</h3>
+                        <p className="card__description">Uses data from past projects to provide better delivery estimates</p>
+                        <div className="card__container-icon">
+                            <img src="./src/assets/images/icon-calculator.svg" alt="Calculator" className="card__icon" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    );
 }
 
 export default App
