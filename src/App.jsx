@@ -6,7 +6,7 @@ function App() {
             <div className="container__grid">
                 
                 <div className="grid__column">
-                    <div className="card">
+                    <div className="card cyan">
                         <h3 className="card__title">Supervisor</h3>
                         <p className="card__description">Monitors activity to identify project roadblocks</p>
                         <div className="card__container-icon">
@@ -16,7 +16,7 @@ function App() {
                 </div>
 
                 <div className="grid__column">
-                    <div className="card">
+                    <div className="card red">
                         <h3 className="card__title">Team Builder</h3>
                         <p className="card__description">Scans our talent network to create the optimal team for your project</p>
                         <div className="card__container-icon">
@@ -24,7 +24,7 @@ function App() {
                         </div>
                     </div>
 
-                    <div className="card">
+                    <div className="card orange">
                         <h3 className="card__title">Karma</h3>
                         <p className="card__description">Regularly evaluates our talent to ensure quality</p>
                         <div className="card__container-icon">
@@ -34,7 +34,7 @@ function App() {
                 </div>
 
                 <div className="grid__column">
-                    <div className="card">
+                    <div className="card blue">
                         <h3 className="card__title">Calculator</h3>
                         <p className="card__description">Uses data from past projects to provide better delivery estimates</p>
                         <div className="card__container-icon">

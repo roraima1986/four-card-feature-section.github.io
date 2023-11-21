@@ -7,8 +7,13 @@ import Header from './assets/components/Header.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Header />
-    <App />
+    
+    <div className='container'>
+      <Header />
+      <App />
+    </div>    
+    
     <Footer />
+    
   </React.StrictMode>,
 )
