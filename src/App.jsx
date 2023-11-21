@@ -11,7 +11,7 @@ function App() {
                     <Card 
                         title={'Supervisor'} 
                         description={'Monitors activity to identify project roadblocks'} 
-                        image={'./src/assets/images/icon-supervisor.svg'}
+                        image={'./assets/images/icon-supervisor.svg'}
                         color={'cyan'} />                    
                 </div>
 
@@ -19,13 +19,13 @@ function App() {
                     <Card 
                         title={'Team Builder'} 
                         description={'Scans our talent network to create the optimal team for your project'} 
-                        image={'./src/assets/images/icon-team-builder.svg'}
+                        image={'./assets/images/icon-team-builder.svg'}
                         color={'red'} />
 
                     <Card 
                         title={'Karma'} 
                         description={'Regularly evaluates our talent to ensure quality'} 
-                        image={'./src/assets/images/icon-karma.svg'}
+                        image={'./assets/images/icon-karma.svg'}
                         color={'orange'} />                    
                     
                 </div>
@@ -34,7 +34,7 @@ function App() {
                     <Card 
                         title={'Calculator'} 
                         description={'Uses data from past projects to provide better delivery estimates'} 
-                        image={'./src/assets/images/icon-calculator.svg'}
+                        image={'./assets/images/icon-calculator.svg'}
                         color={'blue'} />
                     
                 </div>
