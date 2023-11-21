@@ -1,3 +1,5 @@
+import Card from "./assets/components/Card";
+
 function App() {
   
     return (
@@ -6,41 +8,35 @@ function App() {
             <div className="container__grid">
                 
                 <div className="grid__column">
-                    <div className="card cyan">
-                        <h3 className="card__title">Supervisor</h3>
-                        <p className="card__description">Monitors activity to identify project roadblocks</p>
-                        <div className="card__container-icon">
-                            <img src="./src/assets/images/icon-supervisor.svg" alt="Supervisor" className="card__icon" />
-                        </div>
-                    </div>
+                    <Card 
+                        title={'Supervisor'} 
+                        description={'Monitors activity to identify project roadblocks'} 
+                        image={'./src/assets/images/icon-supervisor.svg'}
+                        color={'cyan'} />                    
                 </div>
 
                 <div className="grid__column">
-                    <div className="card red">
-                        <h3 className="card__title">Team Builder</h3>
-                        <p className="card__description">Scans our talent network to create the optimal team for your project</p>
-                        <div className="card__container-icon">
-                            <img src="./src/assets/images/icon-team-builder.svg" alt="Team Builder" className="card__icon" />
-                        </div>
-                    </div>
+                    <Card 
+                        title={'Team Builder'} 
+                        description={'Scans our talent network to create the optimal team for your project'} 
+                        image={'./src/assets/images/icon-team-builder.svg'}
+                        color={'red'} />
 
-                    <div className="card orange">
-                        <h3 className="card__title">Karma</h3>
-                        <p className="card__description">Regularly evaluates our talent to ensure quality</p>
-                        <div className="card__container-icon">
-                            <img src="./src/assets/images/icon-karma.svg" alt="Karma" className="card__icon" />
-                        </div>
-                    </div>
+                    <Card 
+                        title={'Karma'} 
+                        description={'Regularly evaluates our talent to ensure quality'} 
+                        image={'./src/assets/images/icon-karma.svg'}
+                        color={'orange'} />                    
+                    
                 </div>
 
                 <div className="grid__column">
-                    <div className="card blue">
-                        <h3 className="card__title">Calculator</h3>
-                        <p className="card__description">Uses data from past projects to provide better delivery estimates</p>
-                        <div className="card__container-icon">
-                            <img src="./src/assets/images/icon-calculator.svg" alt="Calculator" className="card__icon" />
-                        </div>
-                    </div>
+                    <Card 
+                        title={'Calculator'} 
+                        description={'Uses data from past projects to provide better delivery estimates'} 
+                        image={'./src/assets/images/icon-calculator.svg'}
+                        color={'blue'} />
+                    
                 </div>
 
             </div>
